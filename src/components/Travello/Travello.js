@@ -1,11 +1,12 @@
 import React from 'react'
 import './Travello.css';
+import {Link} from "react-router-dom";
 
 function Travello() {
     return (
         <>
             <div class="super_container">
-                    <header class="header">
+                <header class="header">
                         <div class="container">
                             <div class="row">
                                 <div class="col">
@@ -14,7 +15,7 @@ function Travello() {
                                             <div class="logo"><a href="index.html">Travello</a></div>
                                             <nav class="main_nav">
                                                 <ul class="d-flex flex-row align-items-start justify-content-start">
-                                                    <li class="active"><a href="index.html">Home</a></li>
+                                                    <li class="active" ><Link to="/Preet">Home</Link></li>
                                                     <li><a href="about.html">About us</a></li>
                                                     <li><a href="#">Services</a></li>
                                                     <li><a href="news.html">News</a></li>
